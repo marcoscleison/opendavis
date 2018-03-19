@@ -1,10 +1,7 @@
 .DS_Store
-dist/electron/*
-dist/web/*
-build/*
-!build/icons
+.thumbs.db
 node_modules/
-npm-debug.log
-npm-debug.log.*
-thumbs.db
-!.gitkeep
+dist/
+npm-debug.log*
+cordova/platforms
+cordova/plugins
