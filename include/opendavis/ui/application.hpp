@@ -1,6 +1,9 @@
 #pragma once
 #include<memory>
+#include<vector>
 #include<experimental/propagate_const>
+#include"opendavis/ui/dom.hpp"
+
 namespace opendavis{
     namespace ui{
         class Application{
@@ -9,13 +12,14 @@ namespace opendavis{
             ~Application();
             Application(Application&&);
             Application& operator=(Application&&);
-
+            void addDom(Dom::Ptr dom);
             void run();
 
             private:
 
             class impl;
             std::experimental::propagate_const<std::unique_ptr<impl>> pimpl;
+            std::vector<Dom::Ptr> docs;
         };
     }
 }

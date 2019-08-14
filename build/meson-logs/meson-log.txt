@@ -1,4 +1,4 @@
-Build started at 2019-08-14T18:51:12.819569
+Build started at 2019-08-14T20:19:59.439114
 Main binary: /usr/bin/python3
 Python system: Linux
 The Meson build system
@@ -7,32 +7,10 @@ Source dir: /home/marcoscleison/projects/cpp/opendavis
 Build dir: /home/marcoscleison/projects/cpp/opendavis/build
 Build type: native build
 Project name: opendavis
-Sanity testing C compiler: cc
-Is cross compiler: False.
-Sanity check compiler command line: cc /home/marcoscleison/projects/cpp/opendavis/build/meson-private/sanitycheckc.c -o /home/marcoscleison/projects/cpp/opendavis/build/meson-private/sanitycheckc.exe
-Sanity check compile stdout:
-
------
-Sanity check compile stderr:
-
------
-Running test binary command: /home/marcoscleison/projects/cpp/opendavis/build/meson-private/sanitycheckc.exe
 Native C compiler: cc (gcc 7.4.0 "cc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0")
-Sanity testing C++ compiler: c++
-Is cross compiler: False.
-Sanity check compiler command line: c++ /home/marcoscleison/projects/cpp/opendavis/build/meson-private/sanitycheckcpp.cc -o /home/marcoscleison/projects/cpp/opendavis/build/meson-private/sanitycheckcpp.exe
-Sanity check compile stdout:
-
------
-Sanity check compile stderr:
-
------
-Running test binary command: /home/marcoscleison/projects/cpp/opendavis/build/meson-private/sanitycheckcpp.exe
 Native C++ compiler: c++ (gcc 7.4.0 "c++ (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0")
 Build machine cpu family: x86_64
 Build machine cpu: x86_64
-Found pkg-config: /usr/bin/pkg-config (0.29.1)
-Determining dependency 'sfml-graphics' with pkg-config executable '/usr/bin/pkg-config'
-Native dependency sfml-graphics found: YES 2.4.2
+Dependency sfml-graphics found: YES (cached)
 Build targets in project: 1
 Found ninja-1.8.2 at /usr/bin/ninja

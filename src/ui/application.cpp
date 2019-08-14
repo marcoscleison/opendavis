@@ -49,3 +49,7 @@ void Application::run()
 {
     this->pimpl->run();
 }
+
+void Application::addDom(Dom::Ptr dom){
+    this->docs.push_back(dom);
+}

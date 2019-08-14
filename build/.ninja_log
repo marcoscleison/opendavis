@@ -6,3 +6,10 @@
 666	805	1565822227	opendavis	1e95a00c663179e0
 1	645	1565822552	opendavis@exe/src_ui_application.cpp.o	ff750a70ec8e3355
 645	1131	1565822552	opendavis	1e95a00c663179e0
+0	763	1565824799	build.ninja	cd8812174f1b3e52
+1	398	1565824799	opendavis@exe/src_main.cpp.o	5589f56f8d6b2adb
+1	477	1565824799	opendavis@exe/src_ui_dom.cpp.o	a29b4d77f4972bf
+1	932	1565824800	opendavis@exe/src_ui_application.cpp.o	ff750a70ec8e3355
+933	1085	1565824800	opendavis	ae030a0926f80d0d
+2	448	1565824923	opendavis@exe/src_main.cpp.o	5589f56f8d6b2adb
+448	565	1565824923	opendavis	ae030a0926f80d0d

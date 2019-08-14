@@ -11,6 +11,8 @@ sfml = dependency('sfml-graphics')
 src=[
     'src/main.cpp',
     'src/ui/application.cpp',
+    'src/ui/dom.cpp',
+
 ]
 executable('opendavis', src, dependencies : [sfml],include_directories : incdir)
 

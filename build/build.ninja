@@ -84,7 +84,11 @@ build opendavis@exe/src_ui_application.cpp.o: cpp_COMPILER ../src/ui/application
  DEPFILE = opendavis@exe/src_ui_application.cpp.o.d
  ARGS = -Iopendavis@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -O0 -g
 
-build opendavis: cpp_LINKER opendavis@exe/src_main.cpp.o opendavis@exe/src_ui_application.cpp.o
+build opendavis@exe/src_ui_dom.cpp.o: cpp_COMPILER ../src/ui/dom.cpp
+ DEPFILE = opendavis@exe/src_ui_dom.cpp.o.d
+ ARGS = -Iopendavis@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -O0 -g
+
+build opendavis: cpp_LINKER opendavis@exe/src_main.cpp.o opendavis@exe/src_ui_application.cpp.o opendavis@exe/src_ui_dom.cpp.o
  LINK_ARGS = -Wl,--no-undefined -Wl,--as-needed -Wl,--start-group -lsfml-graphics -lsfml-window -lsfml-system -Wl,--end-group
 
 # Test rules
