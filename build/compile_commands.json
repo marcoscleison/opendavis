@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "/home/marcoscleison/projects/cpp/opendavis/build",
+    "command": "c++  -Iopendavis@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -O0 -g -MD -MQ 'opendavis@exe/src_main.cpp.o' -MF 'opendavis@exe/src_main.cpp.o.d' -o 'opendavis@exe/src_main.cpp.o' -c ../src/main.cpp",
+    "file": "../src/main.cpp"
+  },
+  {
+    "directory": "/home/marcoscleison/projects/cpp/opendavis/build",
+    "command": "c++  -Iopendavis@exe -I. -I.. -I../src -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -O0 -g -MD -MQ 'opendavis@exe/src_ui_application.cpp.o' -MF 'opendavis@exe/src_ui_application.cpp.o.d' -o 'opendavis@exe/src_ui_application.cpp.o' -c ../src/ui/application.cpp",
+    "file": "../src/ui/application.cpp"
+  }
+]

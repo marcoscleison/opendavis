@@ -1,0 +1,8 @@
+# ninja log v5
+1	730	1565822028	opendavis@exe/src_ui_application.cpp.o	ff750a70ec8e3355
+1	675	1565822084	opendavis@exe/src_ui_application.cpp.o	ff750a70ec8e3355
+1	334	1565822227	opendavis@exe/src_main.cpp.o	5589f56f8d6b2adb
+1	666	1565822227	opendavis@exe/src_ui_application.cpp.o	ff750a70ec8e3355
+666	805	1565822227	opendavis	1e95a00c663179e0
+1	645	1565822552	opendavis@exe/src_ui_application.cpp.o	ff750a70ec8e3355
+645	1131	1565822552	opendavis	1e95a00c663179e0
