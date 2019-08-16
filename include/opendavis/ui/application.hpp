@@ -1,7 +1,7 @@
 #pragma once
 #include<memory>
 #include<vector>
-#include<experimental/propagate_const>
+// #include<experimental/propagate_const>
 #include"opendavis/ui/dom.hpp"
 
 namespace opendavis{
@@ -18,7 +18,7 @@ namespace opendavis{
             private:
 
             class impl;
-            std::experimental::propagate_const<std::unique_ptr<impl>> pimpl;
+            std::unique_ptr<impl> pimpl;
             std::vector<Dom::Ptr> docs;
         };
     }

@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <memory>
 #include <iostream>
+#include <functional>
 using namespace opendavis::ui;
 
 class Application::impl
@@ -14,6 +15,7 @@ public:
     ~impl()
     {
     }
+    
     void run()
     {
         while (window.isOpen())
@@ -26,6 +28,7 @@ public:
                     window.close();
             }
             window.clear(sf::Color::Black);
+
 
             window.display();
         }
